@@ -1,26 +1,157 @@
 {
   "greetings": {
-    "keywords": ["hi", "hello", "hey"],
-    "answer": "Hello! Welcome to our tuition class. How can I help you?"
+    "keywords": [
+      "hi", "hello", "hey", "good morning", "good evening",
+      "hello there", "hey there", "hi there", "greetings", "hey teacher"
+    ],
+    "answer": "Hello! Welcome to our tuition class. How can I help you today?"
   },
-  "class_time": {
-    "keywords": ["time", "class time", "when", "schedule"],
-    "answer": "Classes are held from 4:00 PM to 6:00 PM, Monday to Friday."
+
+  "grades": {
+    "keywords": [
+      "grades", "grade", "which grades", "students", "what grades",
+      "classes for which grades", "which students can join", "grade levels", "all grades", "student grades"
+    ],
+    "answer": "We conduct classes for Grade 6 to Grade 11 students."
   },
+
+  "class_times": {
+    "keywords": [
+      "all class times", "class timings", "timing for each grade","can I know all class times","List out class timings",
+      "schedule for all classes", "what are the class timings", 
+      "when do classes start", "tell me the class schedule", 
+      "class hours", "timings of classes", "time for all grades"
+    ],
+    "answer": "Grade 6: 3:00-4:30 PM, Grade 7: 3:30-5:00 PM, Grade 8: 4:00-5:30 PM, Grade 9: 4:30-6:00 PM, Grade 10-11: 5:00-7:00 PM, Monday to Friday."
+  },
+
+  "class_time_grade_6": {
+    "keywords": [
+      "grade 6 time", "grade 6 class", "grade six schedule", 
+      "time for grade 6", "when is grade 6 class", 
+      "grade 6 class hours", "grade six timing", "grade 6 schedule please",
+      "what is the time for grade 6", "grade 6 timing details"
+    ],
+    "answer": "Grade 6 classes are held from 3:00 PM to 4:30 PM, Monday to Friday."
+  },
+
+  "class_time_grade_7": {
+    "keywords": [
+      "grade 7 time", "grade 7 class", "grade seven schedule",
+      "time for grade 7", "when is grade 7 class", 
+      "grade 7 class hours", "grade seven timing", "grade 7 schedule please",
+      "what is the time for grade 7", "grade 7 timing details"
+    ],
+    "answer": "Grade 7 classes are held from 3:30 PM to 5:00 PM, Monday to Friday."
+  },
+
+  "class_time_grade_8": {
+    "keywords": [
+      "grade 8 time", "grade 8 class", "grade eight schedule",
+      "time for grade 8", "when is grade 8 class", 
+      "grade 8 class hours", "grade eight timing", "grade 8 schedule please",
+      "what is the time for grade 8", "grade 8 timing details"
+    ],
+    "answer": "Grade 8 classes are held from 4:00 PM to 5:30 PM, Monday to Friday."
+  },
+
+  "class_time_grade_9": {
+    "keywords": [
+      "grade 9 time", "grade 9 class", "grade nine schedule",
+      "time for grade 9", "when is grade 9 class", 
+      "grade 9 class hours", "grade nine timing", "grade 9 schedule please",
+      "what is the time for grade 9", "grade 9 timing details"
+    ],
+    "answer": "Grade 9 classes are held from 4:30 PM to 6:00 PM, Monday to Friday."
+  },
+
+  "class_time_grade_10_11": {
+    "keywords": [
+      "grade 10 time", "grade 11 time", "O/L class schedule",
+      "time for grade 10 and 11", "when are OL classes", 
+      "class hours for grades 10 and 11", "OL class timing", 
+      "OL schedule", "grade 10 and 11 timing", "OL classes time"
+    ],
+    "answer": "Grade 10 and 11 (O/L) classes are held from 5:00 PM to 7:00 PM, Monday to Friday."
+  },
+
   "subjects": {
-    "keywords": ["subjects", "classes", "teach"],
+    "keywords": [
+      "subjects", "classes", "teach", "lessons", "what do you teach",
+      "subjects available", "subjects taught", "courses", "topics", "courses offered"
+    ],
     "answer": "We teach Mathematics, Physics, and ICT."
   },
-  "fees": {
-    "keywords": ["fees", "payment", "cost", "price"],
-    "answer": "The monthly fee is Rs. 3000."
+
+  "subjects_grade_wise": {
+    "keywords": [
+      "subjects for grade", "grade wise subjects", "which subjects for grade",
+      "subjects per grade", "grade specific subjects", "what subjects per grade",
+      "subjects by grade", "grade subject list", "subject schedule by grade", "grade wise lessons"
+    ],
+    "answer": "Mathematics is taught for all grades. Physics is available from Grade 9 onwards. ICT is available for Grades 10 and 11."
   },
+
+  "fees": {
+    "keywords": [
+      "fees", "payment", "cost", "price", "monthly fee", 
+      "tuition fee", "how much to pay", "fee structure", 
+      "class fee", "price per subject"
+    ],
+    "answer": "The monthly fee is Rs. 3000 per subject."
+  },
+
+  "registration": {
+    "keywords": [
+      "register", "admission", "join", "enroll", "sign up", 
+      "how to register", "admission process", "register for class", 
+      "enrollment", "joining instructions"
+    ],
+    "answer": "You can register by visiting our class or by calling our contact number."
+  },
+
+  "revision_classes": {
+    "keywords": [
+      "revision", "paper class", "seminar", "extra classes", "revision sessions",
+      "special class", "exam prep class", "revision timetable", "extra lessons", "weekend revision"
+    ],
+    "answer": "Revision and paper classes are conducted on Saturdays."
+  },
+
+  "exams": {
+    "keywords": [
+      "exams", "tests", "monthly test", "exam schedule", "test dates",
+      "upcoming exams", "assessment", "term test", "exam preparation", "exam info"
+    ],
+    "answer": "Monthly tests and term test discussions are conducted regularly."
+  },
+
+  "online_classes": {
+    "keywords": [
+      "online", "zoom", "google meet", "virtual class", "online lessons",
+      "remote class", "online teaching", "distance learning", "zoom class", "virtual lessons"
+    ],
+    "answer": "Online classes are available for selected grades via Zoom."
+  },
+
   "location": {
-    "keywords": ["location", "place", "where"],
+    "keywords": [
+      "location", "place", "where", "address", "class location",
+      "tuition location", "where is the class", "location details", "class address", "how to reach"
+    ],
     "answer": "We are located near the Main Bus Stand."
   },
+
   "contact": {
-    "keywords": ["contact", "phone", "number"],
+    "keywords": [
+      "contact", "phone", "number", "call", "contact info", 
+      "reach us", "contact details", "how to call", "phone number", "call number"
+    ],
     "answer": "You can contact us at 077-1234567."
+  },
+
+  "fallback": {
+    "keywords": [],
+    "answer": "Sorry, I couldn't understand your question. Please ask about grades, class times, fees, or subjects."
   }
 }
