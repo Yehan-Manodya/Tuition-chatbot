@@ -1,0 +1,26 @@
+{
+  "greetings": {
+    "keywords": ["hi", "hello", "hey"],
+    "answer": "Hello! Welcome to our tuition class. How can I help you?"
+  },
+  "class_time": {
+    "keywords": ["time", "class time", "when", "schedule"],
+    "answer": "Classes are held from 4:00 PM to 6:00 PM, Monday to Friday."
+  },
+  "subjects": {
+    "keywords": ["subjects", "classes", "teach"],
+    "answer": "We teach Mathematics, Physics, and ICT."
+  },
+  "fees": {
+    "keywords": ["fees", "payment", "cost", "price"],
+    "answer": "The monthly fee is Rs. 3000."
+  },
+  "location": {
+    "keywords": ["location", "place", "where"],
+    "answer": "We are located near the Main Bus Stand."
+  },
+  "contact": {
+    "keywords": ["contact", "phone", "number"],
+    "answer": "You can contact us at 077-1234567."
+  }
+}
